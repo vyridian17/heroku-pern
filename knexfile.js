@@ -15,10 +15,10 @@ module.exports = {
       database: process.env.DB_DATABASE
     },
      migrations: {
-      directory: __dirname + './migrations'
+      directory: __dirname + 'migrations'
     },
     seeds: {
-      directory: __dirname + './seeds'
+      directory: __dirname + 'seeds'
     }
   },
 
@@ -30,10 +30,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      tableName: __dirname + './migrations'
+      tableName: __dirname + 'migrations'
     },
     seeds: {
-      directory: __dirname + './seeds'
+      directory: __dirname + 'seeds'
     }
   }
 
