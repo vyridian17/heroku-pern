@@ -9,6 +9,9 @@
   },
   "name": "pern-knex-heroku",
   "version": "1.0.0",
+  "engines" : {
+    "node" : "16.x"
+  },
   "main": "index.js",
   "devDependencies": {
     "nodemon": "^2.0.15"
