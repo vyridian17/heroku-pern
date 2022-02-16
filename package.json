@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm run build",
     "serve": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
