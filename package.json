@@ -9,16 +9,13 @@
   },
   "name": "pern-knex-heroku",
   "version": "1.0.0",
-  "engines" : {
-    "node" : "16.x"
-  },
   "main": "index.js",
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd frontend && && npm install && npm run build",
+    "heroku-postbuild": "cd frontend && npm install && npm run build",
     "serve": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
