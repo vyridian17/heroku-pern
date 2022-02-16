@@ -15,10 +15,10 @@ module.exports = {
       database: process.env.DB_DATABASE
     },
      migrations: {
-      tableName: 'pernheroku'
+      directory: __dirname + './migrations'
     },
     seeds: {
-      directory: './seeds'
+      directory: __dirname + './seeds'
     }
   },
 
@@ -30,10 +30,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      tableName: 'pernheroku'
+      tableName: __dirname + './migrations'
     },
     seeds: {
-      directory: './seeds'
+      directory: __dirname + './seeds'
     }
   }
 
